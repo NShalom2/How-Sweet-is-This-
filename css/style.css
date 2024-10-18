@@ -1,0 +1,350 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(to bottom, #22b600, #effd5f, #f27404, #6B1E99, #cc1430);
+    background-size: 100% 400%;
+    animation: skittlesGradient 5s linear infinite;
+}
+
+@keyframes skittlesGradient {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background-color: #cc1430;
+}
+
+.header-logo a img {
+    padding: 10px;
+    height: 100px;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header li {
+    margin: 0 40px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    transition: color 0.3s;
+}
+
+.header a:hover {
+    color: #340000;
+    font-weight: bold;
+}
+
+.image_1{
+    width: 99vw;
+}
+
+.container_1 {
+    padding: 40px 15%;
+    text-align: center;
+}
+
+.container_1 p {
+    font-size: 35px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.div-1,
+.div-2,
+.div-3 {
+    flex: 1;
+    padding: 30px 5%;
+    background-color: #51c616;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.div-1 img,
+.div-2 img,
+.div-3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.div-1 figcaption,
+.div-2 figcaption,
+.div-3 figcaption {
+    font-size: 27px;
+    margin: 20px 0;
+}
+
+.flavours {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.div-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.div-4 h2 {
+    font-family: 'Agbalumo', serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.div-4 img {
+    width: 500px;
+    height: auto;
+}
+
+.div-4 p {
+    font-size: 30px;
+}
+
+.container-2 {
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #72d225;
+    margin: 20px;
+}
+
+.container-3 {
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #87d92f;
+    margin: 20px;
+}
+
+.container-2 img,
+.container-3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-2 p,
+.container-3 p {
+    font-size: 30px;
+    color: #555;
+    text-align: center;
+    padding: 20px;
+}
+
+.fun-facts {
+    padding: 40px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-5 {
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+    border: 2px solid #ccc;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.div-5 h2 {
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.div-5 ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.div-5 li {
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.more-flavors-info {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.more-flavors {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 5%;
+}
+
+.flavor-box {
+    text-align: center;
+    width: 20%;
+    background-color: #ade640;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.flavor-box img {
+    width: 100%;
+    max-height: 200px;
+    border-radius: 10px;
+}
+
+.flavor-box p {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.flavor-box1:hover {
+    background-color: #cc1430;
+}
+
+.flavor-box1 p:hover{
+    color: white;
+}
+
+.flavor-box2:hover {
+    background-color: #00b8e9;
+}
+
+.flavor-box2 p:hover{
+    color: white;
+}
+
+.flavor-box3:hover {
+    background-color: #af3a89;
+}
+
+.flavor-box3 p:hover{
+    color: white;
+}
+
+.flavor-box4:hover {
+    background-color: #90bf4d;
+}
+
+.flavor-box4 p:hover{
+    color: white;
+}
+
+.div-6 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.div-6 h2 {
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 60px;
+}
+
+.div-6 p {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.nutritional-info {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.div-7 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.div-7 h2 {
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 55px;
+    text-align: center;
+}
+
+.div-7 p {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.div-7 h3 {
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+.div-7 ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.div-7 li {
+    padding: 10px;
+    font-size: 29px;
+}
+
+.footer {
+    background-color: #cc1430;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer-logo{
+    line-height: 50px;
+}
+
+.footer-logo img{
+    height: 65px;
+}
+
+.footer-links {
+    line-height: 35px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+.footer-links a:hover {
+    font-weight: bold;
+    color: #340000;
+}
+
+.copyright {
+    font-size: 16px;
+    margin-top: 20px;
+}
